@@ -1,8 +1,9 @@
 ---
 path: "/first-post"
-date: "2018-07-21"
-title: "My First Post"
-tags: ["this", "that"]
+date: "August 7th, 2019"
+title: "Fantastic Floats and When To Use Them"
+description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+tags: ["css"]
 excerpt: "A preview of my first post"
 ---
 
@@ -21,29 +22,26 @@ Oh, and here's a great quote from this Wikipedia on
 > salted duck eggs have a briny aroma, a gelatin-like egg white and a
 > firm-textured, round yolk that is bright orange-red in color.
 
-```js{4,19}
-function getName(user) {
-  let name = user.name
-  if (name === null) {
-    throw new Error("A girl has no name")
-  }
-  return name
+```jsx
+function test(param1, param2) {
+  return true
 }
 
-function makeFriends(user1, user2) {
-  user1.friendNames.add(getName(user2))
-  user2.friendNames.add(getName(user1))
-}
-
-const arya = { name: null }
-const gendry = { name: "Gendry" }
-try {
-  makeFriends(arya, gendry)
-} catch (err) {
-  console.log("Oops, that didn't work out: ", err)
-}
+array = [1, 2, 3]
 
 console.log(1, 2, 3)
+
+//highlight-start
+const thisIsAVariable = "this is a variable"
+//highlight-end
+
+array.map((value, index) => {
+  return (
+    <div>
+      <h2>{thisIsAVariable}</h2>
+    </div>
+  )
+})
 
 // comment
 ```

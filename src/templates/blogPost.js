@@ -7,7 +7,7 @@ const Template = ({ data, pageContext }) => {
   const title = markdownRemark.frontmatter.title
   const html = markdownRemark.html
   return (
-    <div>
+    <div className="blogpost-container">
       <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
       <div
         className="blogpost"

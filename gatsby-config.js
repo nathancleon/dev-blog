@@ -6,11 +6,22 @@
 
 module.exports = {
   siteMetadata: {
-    title: "console.blah",
-    description: "This is my cool blog.",
+    title: "float:on",
+    description: "and we'll all float on okay",
+    introduction: "–––– a web dev blog ––––",
+    author: {
+      image: "profile-pic.png",
+      description: "My name is Nathan. I'm a fullstack developer based in D.C.",
+    },
   },
   plugins: [
-    `gatsby-transformer-remark`,
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [`gatsby-remark-prismjs`],
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
