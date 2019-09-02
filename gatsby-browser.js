@@ -1,1 +1,1 @@
-import "gatsby-prismjs-dracula"
+require("./src/css/code.css")

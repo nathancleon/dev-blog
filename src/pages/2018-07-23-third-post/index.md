@@ -1,6 +1,6 @@
 ---
 path: "/third-post"
-date: "August 9th, 2019"
+date: "2019-08-23"
 title: "My Third Post"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 tags: ["this", "that"]

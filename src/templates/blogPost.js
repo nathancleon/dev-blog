@@ -8,19 +8,17 @@ const Template = ({ data, pageContext }) => {
   const html = markdownRemark.html
   return (
     <div className="blogpost-container">
-      <h1 style={{ fontFamily: "avenir" }}>{title}</h1>
-      <div
-        className="blogpost"
-        dangerouslySetInnerHTML={{ __html: html }}
-        style={{
-          fontFamily: "avenir",
-        }}
-      />
+      <h1>{title}</h1>
+      <div className="blogpost" dangerouslySetInnerHTML={{ __html: html }} />
       <div style={{ marginBottom: "1rem", fontFamily: "avenir" }}>
-        {next && <Link to={next.frontmatter.path}>Next</Link>}
+        {next && (
+          <Link to={next.frontmatter.path}>{next.frontmatter.title} →</Link>
+        )}
       </div>
-      <div style={{ fontFamily: "avenir" }}>
-        {prev && <Link to={prev.frontmatter.path}>Previous</Link>}
+      <div>
+        {prev && (
+          <Link to={prev.frontmatter.path}>← {prev.frontmatter.title}</Link>
+        )}
       </div>
     </div>
   )

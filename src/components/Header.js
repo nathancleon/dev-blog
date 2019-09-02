@@ -20,13 +20,13 @@ const TitleAndDescription = ({ data }) => {
         <div>
           <img className="author-img" src={profilePic} alt="the author" />
           <div className="author-social">
-            <a href="twitter.com">
+            <a tabIndex="1" href="twitter.com">
               <img src={twitterIcon} alt="twitter" />
             </a>
-            <a href="linkedin.com">
+            <a tabIndex="2" href="linkedin.com">
               <img src={linkedInIcon} alt="linked in" />
             </a>
-            <a href="mailto:nathancleon@gmail.com">
+            <a tabIndex="3" href="mailto:nathancleon@gmail.com">
               <img src={emailIcon} alt="email" />
             </a>
           </div>
