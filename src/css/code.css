@@ -140,10 +140,10 @@ pre[data-line] {
 }
 
 .gatsby-highlight {
+  margin-top: 1.75rem;
   margin-bottom: 1.75rem;
   margin-left: -1.3125rem;
   margin-right: -1.3125rem;
-  border-radius: 10px;
   background: #011627;
   -webkit-overflow-scrolling: touch;
   overflow: auto;
@@ -158,4 +158,10 @@ pre[data-line] {
 .gatsby-highlight pre[class*='language-'] {
   float: left;
   min-width: 100%;
+}
+
+code[class*='language-text'] {
+  background-color: rgba(122, 143, 255, 0.5) !important;
+  font-size: 14px !important;
+  padding: 5px !important;
 }

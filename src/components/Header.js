@@ -20,10 +20,18 @@ const TitleAndDescription = ({ data }) => {
         <div>
           <img className="author-img" src={profilePic} alt="the author" />
           <div className="author-social">
-            <a tabIndex="1" href="twitter.com">
+            <a
+              tabIndex="1"
+              href="https://www.twitter.com/nathanleoncodes"
+              target="_blank"
+            >
               <img src={twitterIcon} alt="twitter" />
             </a>
-            <a tabIndex="2" href="linkedin.com">
+            <a
+              tabIndex="2"
+              href="https://www.linkedin.com/in/nathancleon/"
+              target="_blank"
+            >
               <img src={linkedInIcon} alt="linked in" />
             </a>
             <a tabIndex="3" href="mailto:nathancleon@gmail.com">

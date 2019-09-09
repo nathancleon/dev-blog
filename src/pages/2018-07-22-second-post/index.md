@@ -8,4 +8,5 @@ tags: ["js", "recursion"]
 excerpt: "A preview of my second post"
 ---
 
-Lorem ipsum.
+> **Never say never**.
+> ![patrick open mouth recursion loop](https://media2.giphy.com/media/xlTwaFb20TVjW/source.gif)
