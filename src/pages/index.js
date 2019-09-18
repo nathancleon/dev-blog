@@ -49,10 +49,6 @@ class Layout extends React.Component {
       })
       tag.classList.add("tag--bg")
     }
-
-    // let tag = document.getElementById(event.target.id)
-    // console.log(event.target)
-    // tag.classList.add("tag--bg")
   }
 
   render() {
