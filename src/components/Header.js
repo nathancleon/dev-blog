@@ -1,9 +1,9 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import profilePic from "../../public/images/profile-pic.png"
-import twitterIcon from "../../public/images/twitter.svg"
-import linkedInIcon from "../../public/images/linkedin.svg"
-import emailIcon from "../../public/images/envelope.svg"
+import profilePic from "../../static/images/profile-pic.png"
+import twitterIcon from "../../static/images/twitter.svg"
+import linkedInIcon from "../../static/images/linkedin.svg"
+import emailIcon from "../../static/images/envelope.svg"
 
 const TitleAndDescription = ({ data }) => {
   const title = data.site.siteMetadata.title

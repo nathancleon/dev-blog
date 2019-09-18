@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import Moment from "react-moment"
-import HomeIcon from "../../public/images/home-lg.svg"
+import HomeIcon from "../../static/images/home-lg.svg"
 
 const Template = ({ data, pageContext }) => {
   const { next, prev } = pageContext
