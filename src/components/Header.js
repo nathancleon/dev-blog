@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import profilePic from "../../static/images/profile-pic.png"
-import twitterIcon from "../../static/images/twitter.svg"
+import linkIcon from "../../static/images/link.svg"
 import linkedInIcon from "../../static/images/linkedin.svg"
 import emailIcon from "../../static/images/envelope.svg"
 
@@ -20,12 +20,8 @@ const TitleAndDescription = ({ data }) => {
         <div>
           <img className="author-img" src={profilePic} alt="the author" />
           <div className="author-social">
-            <a
-              tabIndex="1"
-              href="https://www.twitter.com/nathanleoncodes"
-              target="_blank"
-            >
-              <img src={twitterIcon} alt="twitter" />
+            <a tabIndex="1" href="https://www.nathancleon.com" target="_blank">
+              <img src={linkIcon} alt="link" />
             </a>
             <a
               tabIndex="2"

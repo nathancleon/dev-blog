@@ -2,14 +2,14 @@
 path: "/fantastic-floats-and-when-to-use-them"
 date: "2019-08-21"
 title: "Fantastic Floats and When To Use Them"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Bad news comes, don't you worry even when it lands. Good news will work its way to all them plans."
 tags: ["css"]
 excerpt: "A preview of my first post"
 ---
 
 > Bad news comes, don't you worry even when it lands
 >
-> Good news will work it way to all them plans
+> Good news will work its way to all them plans
 >
 > We both got fired on, exactly, the same day
 >
