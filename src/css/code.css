@@ -181,7 +181,7 @@ code[class*='language-text'] {
     font-size: 12px !important;
   }
 
-  .gatsby-highlight>span {
+  .gatsby-highlight>code>span {
     font-size: 12px !important;
   }
 }
