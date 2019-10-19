@@ -181,47 +181,8 @@ code[class*='language-text'] {
 
 
 @media only screen and (max-width: 420px) {
-  .gatsby-highlight code {
-    font-size: 10px !important;
-  }
-
-  .gatsby-highlight pre[class*='language-'] {
-    font-size: 10px !important;
-  }
-
-  .gatsby-highlight pre[class*='language-'] code {
-    font-size: 10px !important;
-  }
-
-  .gatsby-highlight>pre[class*='language-']>code>span {
-    font-size: 10px !important;
-  }
-
-  pre[class*='language-'] {
-    font-size: 10px !important;
-  }
-
-  pre[class*='language-']>code {
-    font-size: 10px !important;
-  }
-
-  pre[class*='language-']>code[class*='language-'] {
-    font-size: 10px !important;
-  }
 
   code[class*='language-'] {
-    font-size: 10px !important;
-  }
-
-  code {
-    font-size: 10px !important;
-  }
-
-  code>span {
-    font-size: 10px !important;
-  }
-
-  .token {
     font-size: 10px !important;
   }
 
