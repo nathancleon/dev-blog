@@ -178,6 +178,6 @@ code[class*='language-text'] {
 
 @media only screen and (max-width: 420px) {
   code {
-    font-size: 8px !important;
+    font-size: 10px !important;
   }
 }
