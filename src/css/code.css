@@ -180,4 +180,8 @@ code[class*='language-text'] {
   code {
     font-size: 10px !important;
   }
+
+  code>span {
+    font-size: 10px !important;
+  }
 }
