@@ -197,6 +197,14 @@ code[class*='language-text'] {
     font-size: 10px !important;
   }
 
+  pre[class*='language-']>code {
+    font-size: 10px !important;
+  }
+
+  pre[class*='language-']>code[class*='language-'] {
+    font-size: 10px !important;
+  }
+
   code[class*='language-'] {
     font-size: 10px !important;
   }
@@ -211,5 +219,9 @@ code[class*='language-text'] {
 
   .token {
     font-size: 10px !important;
+  }
+
+  code[class*='language-text'] {
+    font-size: 12px !important;
   }
 }
