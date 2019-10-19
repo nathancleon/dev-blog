@@ -169,9 +169,13 @@ pre[data-line] {
   min-width: 100%;
 }
 
+code[class*='language-'] {
+  font-size: 14px;
+}
+
 code[class*='language-text'] {
   background-color: rgba(122, 143, 255, 0.5) !important;
-  font-size: 14px !important;
+  font-size: 14px;
   padding: 5px !important;
 }
 
@@ -189,7 +193,7 @@ code[class*='language-text'] {
     font-size: 10px !important;
   }
 
-  .gatsby-highlight pre[class*='language-'] code span {
+  .gatsby-highlight>pre[class*='language-']>code>span {
     font-size: 10px !important;
   }
 
