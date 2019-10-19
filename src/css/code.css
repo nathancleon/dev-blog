@@ -154,6 +154,7 @@ pre[data-line] {
     min-width: 100%;
     max-width: 100%;
     margin-left: 0;
+    font-size: 14px !important;
   }
 }
 
