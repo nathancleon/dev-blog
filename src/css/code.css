@@ -177,11 +177,7 @@ code[class*='language-text'] {
 
 
 @media only screen and (max-width: 420px) {
-  .gatsby-highlight {
-    font-size: 12px !important;
-  }
-
-  .gatsby-highlight>code>span {
-    font-size: 12px !important;
+  code {
+    font-size: 8px !important;
   }
 }
