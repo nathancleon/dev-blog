@@ -7,7 +7,8 @@ tags: ["js", "recursion"]
 excerpt: "A preview of my second post"
 ---
 
-> **Well the years start coming and they don't stop coming and they don't stop coming and they don't stop coming and they don't s—** ![patrick open mouth recursion loop](https://media2.giphy.com/media/xlTwaFb20TVjW/source.gif)
+> Well the years start coming and they don't stop coming and they don't stop coming and they don't stop coming and they don't s—
+> ![patrick open mouth recursion loop](https://media2.giphy.com/media/xlTwaFb20TVjW/source.gif)
 
 One concept that often comes up in programming is the concept of **recursion**. To quote [this article](https://www.sitepoint.com/recursion-functional-javascript/) from Sitepoint, **_"recursion is a technique for iterating over an operation by having a function call itself repeatedly until it arrives at a result"_**. So what does this look like? The most common example used for recursion in javaScript is a **factorial** function.
 
