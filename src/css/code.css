@@ -184,4 +184,8 @@ code[class*='language-text'] {
   code>span {
     font-size: 10px !important;
   }
+
+  .token {
+    font-size: 10px !important;
+  }
 }
