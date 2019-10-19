@@ -180,4 +180,8 @@ code[class*='language-text'] {
   .gatsby-highlight {
     font-size: 12px !important;
   }
+
+  .gatsby-highlight>span {
+    font-size: 12px !important;
+  }
 }
